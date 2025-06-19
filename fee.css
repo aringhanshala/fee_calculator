@@ -1,0 +1,265 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "Manrope", sans-serif;
+    box-sizing: border-box;
+}
+
+
+/*Header*/
+.hero{
+    height:75rem;
+    width:100%;
+    position: relative;
+}
+
+.pre-navbar{
+    width:100%;
+    height:3rem;
+    background-color:#3a3a3a;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+}
+
+.pre-navbar-1{
+    display:flex;
+    justify-content:space-around;
+    width:20rem;
+}
+
+.pre-navbar-2{
+    display:flex;
+    justify-content: space-around;
+    height: 100%;
+    width:35rem;
+    align-items: center;
+}
+
+.apply_now{
+    width:8rem;
+    height:100%;
+    background-color:#66cc33;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.ge{
+    font-size: 1.4rem;
+}
+
+.hu{
+    font-size: 1.1rem;
+}
+
+.dc{
+    font-size: 0.6rem;
+}
+
+.navbar{
+    width:100%;
+    height: 6.5rem;
+    background-color: black;
+    background: transparent;
+    z-index: 1;
+    position:absolute;
+    top: 3rem;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.transparent{
+    background-color: black;
+    opacity:40%;
+    z-index: -1;
+    position:absolute;
+    width:100%;
+    height:6.5rem;
+}
+
+.navbar-1{
+    opacity: 100%;
+    display:flex;
+    justify-content:space-around;
+    width:25rem;
+}
+
+.navbar-2{
+    display:flex;
+    justify-content: space-around;
+    height: 100%;
+    width:30rem;
+    align-items: center;
+}
+
+.gehu_logo{
+    width:5rem;
+    height:5rem;
+    position:relative;
+    bottom:0.3rem;
+}
+
+.gehu{
+    display:flex;
+    position: relative;
+    top:0.6rem;
+}
+
+.sc{
+    z-index: 1;
+    position: absolute;
+    bottom:1.1rem;
+    left:1.9rem;
+    font-size: 3rem;
+    color:white;
+}
+
+/*Main body*/
+.fee{
+    height: 55rem;
+    width: 70%;
+    background-color: white;
+    border-radius: 2.5rem;
+    z-index: 2;
+    position: absolute;
+    align-items: center;
+    box-shadow:darkslategrey;
+    background-color: aliceblue;
+    box-shadow:10px 10px 10px black;
+    text-align: center;
+}
+
+.fee h1{
+    text-align: center;
+    font-size: 3rem;
+    font-family: Copperplate;
+    color:crimson;
+    text-decoration: underline;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Form Container */
+.fee {
+    background-color: #ffffffcc;
+    padding: 40px;
+    border-radius: 16px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Heading */
+  .fee h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  /* Labels */
+  label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  /* Inputs and Selects */
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 10px 14px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Radio Groups */
+  .radio-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    gap: 15px;
+    font-weight: 500;
+    color: #444;
+  }
+  
+  .radio-group input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+
+
+.submit-btn {
+    background-color: #4CAF50; 
+    color: white;            
+    padding: 12px 24px;     
+    border: none;              
+    border-radius: 8px;      
+    font-size: 16px;           
+    cursor: pointer;           
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .submit-btn:hover {
+    background-color: #45a049; 
+    transform: scale(1.05);    
+  }
+  
+  .submit-btn:active {
+    transform: scale(0.97);    
+  }
+  
+
+/* Footer */
+.footer{
+    width: 100%;
+    height:8rem;
+    background-color: #282828;
+    color:white;
+    text-align: center;
+}
+.footer a{
+    text-decoration: none;
+    color:white;
+}
+
+.links{
+    position:relative;
+    top:2rem;
+}
+
+.name{
+    position:relative;
+    top:2.9rem;
+}
+
+.social-media{
+    margin-top: 3.6rem;
+    font-size: 1.3rem;
+    margin-left:0.2rem;
+}
+
+.sm{
+    margin-left: 0.7rem;
+}

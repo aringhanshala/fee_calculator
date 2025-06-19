@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fee Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+        <div class="pre-navbar">
+            <div class="pre-navbar-1">
+                <a href="https://gehu.ac.in/dehradun/about-us/" class="about" style="text-decoration: none;color:white;">About</a>
+                <a href="https://gehu.almaconnect.com/" class="alumini" style="text-decoration: none;color:white;">Alumini</a>
+                <a href="https://gehu.ac.in/dehradun/student-area/" class="student_area" style="text-decoration: none;color:white;">Student Area</a>
+            </div>
+
+            <div class="pre-navbar-2">
+                <a href="https://gehu.ac.in/dehradun/notices-and-events/" class="notices&events" style="text-decoration: none;color:white;">Notices & Events</a>
+                <a href="#" class="gallery" style="text-decoration: none;color:white;">Gallery</a>
+                <a href="https://gehu.ac.in/dehradun/contact/" class="contact" style="text-decoration: none;color:white;">Contacts</a>
+                <a href="https://gehu.ac.in/dehradun/apply-now/" class="apply_now" style="text-decoration: none;color:white;">Apply Now</a>
+            </div>
+        </div>
+
+        <div class="navbar">
+            <div class="navbar-1">
+                <a href="https://gehu.ac.in/dehradun/academics/" class="academics" style="text-decoration: none;color:white;">Academics</a>
+                <a href="https://gehu.ac.in/dehradun/admissions/" class="admissions" style="text-decoration: none;color:white;">Admissions</a>
+                <a href="https://gehu.ac.in/dehradun/placements/" class="placements" style="text-decoration: none;color:white;">Placements</a>
+            </div>
+
+            <div class="gehu">
+                <div class="gehu_logo"><img src="logo.png" class="gehu_logo"></div>
+                
+            </div>
+           <div class="navbar-2">
+                <a href="https://gehu.ac.in/dehradun/university-life/" class="life_at_graphic_era" style="text-decoration: none;color:white;">Life at Graphic Era</a>
+                <a href="https://gehu.ac.in/dehradun/international/" class="international" style="text-decoration: none;color:white;">International</a>
+                <a href="https://gehu.ac.in/dehradun/research/" class="research" style="text-decoration: none;color:white;">Research</a>
+           </div>
+           <div class="transparent"></div>
+        </div>
+
+        <div class="box">
+           
+            <img src="color.jpg" class="hero">
+           
+            <div class="fee">
+                <h1>Fee Calculator</h1><br> <br> <br>
+                <form>
+                    <label for="name">Student name:</label>
+                    <input type="text" id="name" name="name"><br>
+                
+                    <div class="radio-group">
+                    Gender:
+                    <input type="radio" id="male" name="gender" value="Male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="Female">
+                    <label for="female">Female</label>
+                    </div>
+                
+                    <label for="course">Choose your course:</label>
+                    <select id="course" name="course">
+                    <option value="Select">Select </option>
+                    <option value="btech">BTech</option>
+                    <option value="mba">MBA</option>
+                    <option value="bca">BCA</option>
+                    <option value="bsc">B.Sc</option>
+                    </select><br>
+                
+                    <label for="marks">Student 12th percentage:</label>
+                    <input type="number" id="marks" name="marks"><br>
+                
+                    <label for="exam">Choose any competitive exam if given any:</label>
+                    <select id="exam" name="exam">
+                    <option value="none">None</option>
+                    <option value="Jee">JEE</option>
+                    <option value="cuet">CUET</option>
+                    <option value="cat">CAT</option>
+                    <option value="cmat">CMAT</option>
+                    <option value="gate">GATE</option>
+                    </select><br>
+                
+                    <label for="score">Your score in that competitive exam:</label>
+                    <input type="number" id="score" name="score"><br>
+                
+                    <div class="radio-group">
+                    Do you belong to Uttarakhand:
+                    <input type="radio" id="uk_yes" name="uk_domicile" value="yes">
+                    <label for="uk_yes">Yes</label>
+                    <input type="radio" id="uk_no" name="uk_domicile" value="no">
+                    <label for="uk_no">No</label>
+                    </div>
+                
+                    <div class="radio-group">
+                    Do you have single parent?:
+                    <input type="radio" id="single_parent_yes" name="single_parent" value="yes">
+                    <label for="single_parent_yes">Yes</label>
+                    <input type="radio" id="single_parent_no" name="single_parent" value="no">
+                    <label for="single_parent_no">No</label>
+                    </div>
+                
+                    <div class="radio-group">
+                    Is either of your parents a defense personnel?:
+                    <input type="radio" id="defense_yes" name="defense_ward" value="yes">
+                    <label for="defense_yes">Yes</label>
+                    <input type="radio" id="defense_no" name="defense_ward" value="no">
+                    <label for="defense_no">No</label>
+                    </div>
+                    
+                    <div class="radio-group">
+                        Do you have or had  real siblings in college?:
+                        <input type="radio" id="siblings_yes" name="siblings" value="yes">
+                        <label for="siblings_yes">Yes</label>
+                        <input type="radio" id="siblings_no"  name="siblings" value="no">
+                        <label for="siblings_no">No</label>
+                        </div>
+                    <input type="submit" value="Submit" class="submit-btn">
+                  </form>
+                
+                
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer">
+                <div class="links">
+                    <a href="https://gehu.ac.in/dehradun/careers/">Careers</a> |
+                    <a href="https://gehu.ac.in/dehradun/sitemap.xml">Sitemap</a> |
+                    <a href="https://gehu.ac.in/dehradun/disclaimer/">Disclaimer</a> |
+                    <a href="https://gehu.ac.in/dehradun/privacy-policy/">Privacy Policy</a> |
+                    <a href="https://login.live.com/oauth20_authorize.srf?client_id=4765445b-32c6-49b0-83e6-1d93765276ca&scope=openid+profile+https%3a%2f%2fwww.office.com%2fv2%2fOfficeHome.All&redirect_uri=https%3a%2f%2fwww.office.com%2flandingv2&response_type=code+id_token&state=CQRS2DT1_nxbX45MgOcTB43GhmWYJtA6hjW6tXjo0O33SQuqkJbxD5yXftXq5VxAKrIHawoT6dGELrMcyLCr7Xtt5ZVsPh1-QeYeWYaeeTo-W1TbJy0oRHkayVn_6j3aPfnNArxG7PMP6nn54XOVjOaUVJb1CGYTkRMNvdjkcofxPhM3PndliqrGNemt7kC4byR-dEStZYDEeiyQJvs3wIiKtUbACKWgXcDbdsq6HNrup39SHxxbl5mwpQzftRMzSBNW02WoL0CClGvze4RbRw&response_mode=form_post&nonce=638722647390213438.ZDQ0ZGZiZDQtNmNhMy00ZWY3LWIyMmEtY2I3MjM4MDM4MDU3NDg5ODNjN2UtYmI0NS00YmFhLTkxZmUtMWRmNzYxMmE3ZDVh&x-client-SKU=ID_NET8_0&x-client-Ver=7.5.1.0&uaid=d47cba5b7d10476785a62c06607b4040&msproxy=1&issuer=mso&tenant=common&ui_locales=en-GB&epct=PAQABDgEAAADW6jl31mB3T7ugrWTT8pFeJDlX7C7bmweQZzUrA0kQ9c3UWLlKoeLL5vRwI7XdymLAiw4kJXQ_bUB97eEuN6rJT_90H3U_PL7cKZjWL6yHAuqji5j9pWcwrMH3z2Cg3tw2BMHj404aT-6VCzFLrySaYsH_8QnsGS6oO5GCdQ6VXg4zt4eqwn47X6UuKZVC3cmbbTiWt-RD-SZ5PJOB2fQzOBMq3-sJEazOzXiCXTWa1iAA&jshs=2&jsh=&jshp=3%24aringhanshala207%2540hotmail.com%24Arin%24Ghanshala%24%242%240%240%24877046706896620472%240">Email</a> |
+                    <a href="https://gehu.ac.in/dehradun/terms-conditions/">Terms & Conditions</a> |
+                    <a href="chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://ddn.gehu.ac.in/uploads/doc/fee-refund-policy-1.pdf?_gl=1*tq2lk0*_ga*MjEwNDQxMzA4NC4xNzE2OTAyNDg5*_ga_1E93XRV46Y*MTczNjY2NDQ2MS44LjEuMTczNjY2NzkzOC4wLjAuMA..">Refund Policy</a> |
+                    <a href="https://gehu.knimbus.com/user#/home">Library</a> |
+                    <a href="https://gehu.ac.in/dehradun/anti-ragging/">Anti Ragging</a> |
+                    <a href="https://gehu.ac.in/dehradun/rti/">RTI</a> |
+                    <a href="https://gehu.ac.in/dehradun/finance/">Finance</a> |
+                    <a href="https://gehu.ac.in/dehradun/grievance-redressal-form/">Grievance</a>
+                </div>
+    
+                <div class="name">Graphic Era Hill University, Dehradun © 2025</div>
+                <div class="social-media">
+    
+                    <a href="https://www.facebook.com/gehu.official/" target="_blank" class="sm" title="facebook"><i class="fa-brands fa-facebook"></i></a>
+    
+                    <a href="https://www.linkedin.com/company/graphic-era-hilluniversity" target="_blank" class="sm" title="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                    
+                    <a href="https://www.youtube.com/GEHUDehradun" target="_blank" class="sm" title="twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                    
+                    <a href="https://www.youtube.com/GEHUDehradun" target="_blank" class="sm" title="youtube"><i class="fa-brands fa-youtube"></i></a>
+                    
+                    <a href="https://www.instagram.com/graphicerahilluniversity/" target="_blank" class="sm" title="instagram"><i class="fa-brands fa-instagram"></i></a>
+    
+                </div>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+</body>
+</html>
